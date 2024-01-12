@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chris' Poems</title>
+    <title>My Poems</title>
    <style>
 *{
     margin: 0;
@@ -256,8 +256,23 @@ nav ul{
 }
   </style>
     <script defer>
-  // JS
-  </script>
+document.addEventListener('scroll', function () {
+    const scrollPosition = window.scrollY;
+    document.getElementById('a1').style.transform = 'translateY(' + (-1/2 * scrollPosition) + 'px)';
+    document.getElementById('a2').style.transform = 'translateY(' + (-2/2 * scrollPosition) + 'px)';
+    document.getElementById('a3').style.transform = 'translateY(' + (-3/2 * scrollPosition) + 'px)';
+    document.getElementById('a4').style.transform = 'translateY(' + (-4/2 * scrollPosition) + 'px)';
+    document.getElementById('a5').style.transform = 'translateY(' + (-5/2 * scrollPosition) + 'px)';
+    document.getElementById('a6').style.transform = 'translateY(' + (-6/2 * scrollPosition) + 'px)';
+  });
+  
+
+  document.addEventListener('scroll', function () {
+    const scrollPosition = window.scrollY;
+    document.getElementById('pimg1').style.transform = 'translateY(' + (1/8 * scrollPosition) + 'px)';
+    document.getElementById('pimg2').style.transform = 'translateY(' + (1/10 * scrollPosition) + 'px)';
+  });
+    </script>
 </head>
 
 <body>
