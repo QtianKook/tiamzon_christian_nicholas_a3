@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris' Poems</title>
+   <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+    font-family: 'Monaco', monospace;
+    /* border: 1px greenyellow solid; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 100%;
+    padding: 10px 20px;
+    backdrop-filter: blur(10px);
+    font-size: 24px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    justify-content: end;
+}
+
+#home{
+    max-height: 100vh;
+}
+
+.hero-text{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5vh;
+}
+
+.hero-drawing{
+    width: 60%;
+    margin-left: 5%;
+    position: relative;
+    top: -100px;
+}
+
+.hero h1{
+    font-size: 13vw;
+    line-height: 10vw;
+    color: #ff0051;
+}
+
+.hero p{
+    font-size: 2vw;
+}
+
+.hero-content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    gap: 0px;
+    right: 10%;
+    bottom: 5%;
+}
+
+.text-decor{
+    width: 250px;
+    position: absolute;
+    color: black;
+    backdrop-filter: invert(100%);
+}
+
+.text-decor#a1{
+    top: 180px;
+    left: -20px;
+}
+
+#a2{
+    top: 300px;
+    left: 30%;
+}
+
+#a3{
+    top: 600px;
+    left: 5%;
+}
+
+#a4{
+    top: 500px;
+    left: 60%;
+}
+
+#a5{
+    top: 150px;
+    left: 80%;
+}
+
+#a6{
+    top: 230px;
+    left: 50%;
+}
+#about{
+    background-color: rgb(255, 0, 81);
+    position: relative;
+}
+
+#about p{
+    font-size: 32px;
+}
+
+#about h2{
+    font-size: 80px;
+}
+
+
+.about-title{
+    position: absolute;
+    right: 0;
+}
+
+.about-img{
+    width: 80%;
+    position: absolute;
+    right: 0;
+}
+
+#i1{
+    width: 30%;
+    padding-top: 100px;
+}
+
+.id{
+    position: absolute;
+    
+}
+
+#id1{
+    top: 100px;
+    left: 100px;
+}
+#id2{
+    top: 300px;
+    left: 900px;
+}
+#id3{
+    top: 500px;
+    left: 1050px;
+}
+#id4{
+    top: 700px;
+    left: 200px;
+}
+#id5{
+    top: 900px;
+    left: 1000px;
+}
+#id6{
+    top: 1100px;
+    left: 50px;
+}
+
+.item{
+    position: relative;
+}
+
+
+.idimg{
+    width: 300px;
+    position: absolute;
+}
+
+#idimg1{
+    top: 300px;
+    left: 200px;
+}
+
+#idimg2{
+    top: 500px;
+    left: 600px;
+}
+
+#idimg3{
+    top: 750px;
+    left: 200px;
+}
+
+#idimg4{
+    top: 1000px;
+    left: 600px;
+}
+
+#idimg5{
+    top: 1000px;
+    left: 1100px;
+}
+
+#poem{
+    padding-top: 1300px;
+    padding-bottom: 400px;
+    position: relative;
+}
+
+.poem-background{
+    background-color: #000;
+}
+
+#poem h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.poem-text{
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+    width: fit-content;
+}
+
+#pt1{
+    width: 100%;
+}
+
+#pt2{
+    left: 100px;
+    top: 80px;
+}
+
+#pt3{
+    top: 160px;
+    left: 700px;
+}
+
+.pimg{
+    position: absolute;
+    right: 200px;
+    mix-blend-mode: exclusion;
+    z-index: -1;
+}
+
+#pimg1{
+    top: 1400px;
+    left: 900px;
+}
+
+#pimg2{
+    top: 1800px;
+    left: 100px;
+}
+  </style>
+    <script defer>
+  // JS
+  </script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#poem">Poems</a></li>
+        </ul>
+    </nav>
+    <section class="hero" id="home">
+        <img src="./5ba5c01190266b28febd01759199667e.png" alt="Heading" class="hero-text">
+        <img src="./Drawing-446.sketchpad (1).png" alt="Drawing of face" class="hero-drawing">
+        <div class="hero-content">
+            <h1>"VFTTU"</h1>
+            <p class="">Housing for unwanted poems</p>
+        </div>
+        <p class="text-decor" id="a1">All work and no play makes me a dull boy. </p>
+        <p class="text-decor" id="a2">All work and no play makes me a dull boy. </p>
+        <p class="text-decor" id="a3">All work and no play makes me a dull boy. </p>
+        <p class="text-decor" id="a4">All work and no play makes me a dull boy. </p>
+        <p class="text-decor" id="a5">All work and no play makes me a dull boy. </p>
+        <p class="text-decor" id="a6">All work and no play makes me a dull boy. </p>
+    </section>
+    <section id="about">
+        <img src="./5fd8471623ae71af991f001c1b8dc337 (1).png" alt="" class="about-title">
+        <img src="./Drawing-416.sketchpad.png" alt="" class="about-img">
+        <div class="item" id="i1">
+            <h2>Manifesto</h2>
+            <p>Chaos in the mind is what breeds an ever-flowing stream of creativity, but to lead on the bull dressed in
+                all red could lead you to fall on your head. So henceforth, the lone ranger traversing through the sands
+                of our concrete jungle must never lose sight of the burning sun left in him by the divine mother. </p>
+        </div>
+        <div class="item">
+            <h2>Identity</h2>
+            <p id="id1" class="id">
+                I have <br>
+
+                no <br>
+
+                name <br>
+
+                special to me <br>
+            </p>
+            <p class="id" id="id2">
+                Alone
+            </p>
+            <p class="id" id="id3">
+                I have no face <br>
+
+                to be <br>
+
+                remembered <br>
+
+                when I’m
+            </p>
+            <p class="id" id="id4">
+                Gone
+            </p>
+            <p class="id" id="id5">
+                I’m <br>
+
+                but <br>
+
+                a passing fire <br>
+
+                to light
+            </p>
+            <p class="id" id="id6">Your home</p>
+            <img src="./Drawing-149.sketchpad.png" alt="" id="idimg1" class="idimg">
+            <img src="./Drawing-192.sketchpad.png" alt="" id="idimg2" class="idimg">
+            <img src="./Drawing-193.sketchpad.png" alt="" id="idimg3" class="idimg">
+            <img src="./Drawing-209.sketchpad (1).png" alt="" id="idimg4" class="idimg">
+            <img src="./Drawing-444.sketchpad (1).png" alt="" id="idimg5" class="idimg">
+        </div>
+    </section>
+    <section id="poem">
+        <img src="./e2f71791e9d7a217a304fa33260ae190.png" alt="" class="poem-title">
+        <img src="./download (4).png" alt="" id="pimg1" class="pimg">
+        <img src="./download (3).png" alt="" id="pimg2" class="pimg">
+        <h2>A cigarette Kiss (I hide my <span class="poem-background">intention</span> )</h2>
+        <p class="poem-text" id="pt1">By Christian Nicholas C. Tiamozn <br><br> </p>
+        <p class="poem-text" id="pt2"> Come closer (but not too close) <br>
+
+            let the flame of my cigarette tip <br>
+
+            pass onto you (swallow you WHOLLY <br>
+
+            but… slowly) do not quiver as you feel <br>
+
+            something between the filter and <br>
+
+            your lips (embrace its warmth like it was mine). <br><br> </p>
+
+        <p class="poem-text" id="pt3">
+            Now distance yourself (just not <br>
+
+            toofar) feel the sensation draw inside <br>
+
+            (remember all your worries) inhale it <br>
+
+            a product of my love (a relaxing but <br>
+
+            subtle poison for us both) we are intertwined <br>
+
+            together (may death do us part). <br>
+        </p>
+    </section>
+</body>
+
+</html>
